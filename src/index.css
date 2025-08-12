@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: "poppins", sans-serif;
+}
+
+@layer base {
+
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: "Poppins", sans-serif;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f6f6f6
+  }
+  img{
+    display:block;
+    max-width:100%;
+  }
+}
+@utility flex-center{
+  @apply flex justify-center items-center;
+}
