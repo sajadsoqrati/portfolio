@@ -17,11 +17,14 @@
 
   html {
     font-family: "Poppins", sans-serif;
+    width: 100%;
+
   }
 
   body {
     font-family: "Poppins", sans-serif;
-    background-color: #f6f6f6
+    background-color: #f6f6f6;
+    width: 100%;
   }
   img{
     display:block;

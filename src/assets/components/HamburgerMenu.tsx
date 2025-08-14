@@ -8,7 +8,7 @@ export const HamburgerMenu = () => {
     <div>
       <Hamburger toggled={open} toggle={isOpen} />
       {open && (
-        <div className=" absolute h-auto w-screen top-0 left-0 right-0 text-black bg-[#f6f6f6]">
+        <div className=" absolute h-auto w-screen top-0  right-0 text-black bg-[#f6f6f6]">
           <header className="flex justify-end">
             <Hamburger toggled={open} toggle={isOpen} />
           </header>
