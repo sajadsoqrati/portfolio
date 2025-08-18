@@ -9,7 +9,7 @@ const Header = () => {
         <p className="whitespace-nowrap">Sajad Soqrati</p>
       </span>
       <List className="hidden sm:flex sm:flex-center  sm:gap-15" />
-      <button className="hidden sm:block  whitespace-nowrap hover:text-orange-500 h-8 transition-colors px-3 py-1 font-light bg-black text-white font-light justify-end rounded-3xl">
+      <button className="hidden sm:block  whitespace-nowrap hover:text-orange-500 h-8 transition-colors px-3 py-1 font-light bg-black text-white  justify-end rounded-full">
         <a href="#contact-me">Contact Me</a>
       </button>
       <span className=" sm:hidden">

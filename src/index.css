@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import "tailwindcss";
 
 @theme {
   --font-poppins: "poppins", sans-serif;
+  --font-vazir: "Vazirmatn", sans-serif;
+  --font-nastaliq: "Noto Nastaliq Urdu", serif;
+  --font-noto-arabic: "Noto Sans Arabic", sans-serif;
 }
 
 @layer base {
@@ -26,11 +32,36 @@
     background-color: #f6f6f6;
     width: 100%;
   }
-  img{
-    display:block;
-    max-width:100%;
+
+  img {
+    display: block;
+    max-width: 100%;
   }
 }
-@utility flex-center{
+
+@utility flex-center {
   @apply flex justify-center items-center;
+}
+
+/* Farsi/Persian font utilities */
+@layer utilities {
+  .font-farsi {
+    font-family: "Vazirmatn", sans-serif;
+    direction: rtl;
+  }
+
+  .font-farsi-nastaliq {
+    font-family: "Noto Nastaliq Urdu", serif;
+    direction: rtl;
+  }
+
+  .font-farsi-noto {
+    font-family: "Noto Sans Arabic", sans-serif;
+    direction: rtl;
+  }
+
+  .text-rtl {
+    direction: rtl;
+    text-align: right;
+  }
 }

@@ -1,0 +1,9 @@
+import { RiJavascriptFill } from "react-icons/ri";
+import { BiLogoTypescript } from "react-icons/bi";
+import { SiReact } from "react-icons/si";
+import { SiJest } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiBootstrap } from "react-icons/si";
+import { IoLogoHtml5 } from "react-icons/io";
+import { IoLogoCss3 } from "react-icons/io5";

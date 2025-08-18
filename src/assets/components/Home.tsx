@@ -6,7 +6,7 @@ const Home = () => {
     <section id="home">
       <div>
         <h3 className=" flex-center text-[min(4vw,20px)] pr-6  ">
-          <GoDash color="rgb(249, 66, 21)" size={40} /> Hello There!
+          <GoDash color="rgb(249, 66, 21)" size={30} /> Hello There!
         </h3>
         <div className="flex-center text-[min(5vw,40px)] font-normal">
           <h1 className="text-black font-medium">i'm &nbsp; </h1>
@@ -33,7 +33,7 @@ const Home = () => {
             className="max-h-[70vh] max-w-[80vw] "
           />
         </figure>
-        <p className="sm:hidden bg-[#4C5454] font-extralight text-xs text-white w-[100%] h-auto flex-center py-1.5">
+        <p className="sm:hidden max-sm:text-[min(3vw,12px)]  bg-[#4C5454] font-light text-xs text-white w-[100%] h-auto flex-center py-1.5">
           Engineering isn’t just a job,&nbsp; it’s the story I choose to write
           every day.
         </p>
