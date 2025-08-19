@@ -1,4 +1,3 @@
-import type { IconType } from "react-icons";
 import { BsTelephoneForwardFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { GoDash } from "react-icons/go";
@@ -9,7 +8,6 @@ import { SiReact } from "react-icons/si";
 import { SiJest } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiBootstrap } from "react-icons/si";
 import { IoLogoHtml5 } from "react-icons/io";
 import { IoLogoCss3 } from "react-icons/io5";
 
