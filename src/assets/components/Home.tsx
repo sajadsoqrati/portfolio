@@ -28,7 +28,7 @@ const Home = () => {
         </div>
         <figure className="max-sm:flex-center">
           <img
-            src="src/assets/imges/DSC04699.jpg"
+            src="/imges/DSC04699.jpg"
             alt="sajad"
             className="max-h-[70vh] max-w-[80vw] "
           />

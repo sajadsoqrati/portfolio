@@ -77,7 +77,7 @@ const AboutMe = () => {
         <figure className="max-h-[60vh] max-md:flex-center md:mb-35">
           <img
             className="max-sm:max-w-[62vw] max-w-[40vw] max-md:max-w-[90vw] md:max-h-[40vw]  md:mr-30 md:mb-20"
-            src="src/assets/imges/ors.jpg"
+            src="/imges/ors.jpg"
             alt="sajad"
           />
         </figure>
