@@ -20,7 +20,7 @@ const Technologies = ({
   rightColor = "#fff",
 }: Props) => {
   return (
-    <div className="max-w-[350px] text-xl flex-center gap-5 font-semibold pb-10 whitespace-nowrap">
+    <div className="max-w-[350px] text-xl flex-center gap-5 font-semibold pb-10 whitespace-nowrap ">
       <div className=" w-35 h-50 bg-[#f6f6f6]  flex flex-col items-center gap-5 justify-center mx-auto rounded-b-[100px] rounded-tl-[125px]">
         <figure className="bg-white w-fit p-3 rounded-full">
           <LeftIcon size={leftSize} color={leftColor} />

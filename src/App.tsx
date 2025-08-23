@@ -2,6 +2,7 @@ import "./App.css";
 import AboutMe from "./assets/components/AboutMe";
 import Header from "./assets/components/Header";
 import Home from "./assets/components/Home";
+import Projects from "./assets/components/Projects";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <section id="about-me">
         <AboutMe />
       </section>
+      <section id="projects"></section>
+      <Projects />
     </div>
   );
 }
