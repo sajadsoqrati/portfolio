@@ -26,8 +26,7 @@ const Project = ({ imgSrc, caption, id }: Props) => {
           href={`https://${id}.netlify.app`}
           className="text-lg max-md:text-sm max-md:flex-center font-bold hover:text-[#f54617] "
         >
-          {" "}
-          {id}.netlify.app{" "}
+          {id}.netlify.app
         </a>
       </figcaption>
     </figure>

@@ -6,7 +6,8 @@ const Home = () => {
     <section id="home">
       <div>
         <h3 className=" flex-center text-[min(4vw,20px)] pr-6  ">
-          <GoDash color="rgb(249, 66, 21)" size={30} /> Hello There!
+          <GoDash color="rgb(249, 66, 21)" size={30} /> Hello There! Thank you
+          for your time
         </h3>
         <div className="flex-center text-[min(5vw,40px)] font-normal">
           <h1 className="text-black font-medium">i'm &nbsp; </h1>
