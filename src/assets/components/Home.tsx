@@ -29,7 +29,7 @@ const Home = () => {
         </div>
         <figure className="max-sm:flex-center">
           <img
-            src="/imges/DSC04699.jpg"
+            src="/imges/sajondesk.webp"
             alt="sajad"
             className="max-h-[70vh] max-w-[80vw] "
           />

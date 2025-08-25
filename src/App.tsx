@@ -1,6 +1,6 @@
 import "./App.css";
 import AboutMe from "./assets/components/AboutMe";
-import Contact from "./assets/components/contact";
+import Contact from "./assets/components/Contact";
 import Header from "./assets/components/Header";
 import Home from "./assets/components/Home";
 import Projects from "./assets/components/Projects";
