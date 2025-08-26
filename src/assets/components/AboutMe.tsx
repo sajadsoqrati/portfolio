@@ -16,7 +16,7 @@ const AboutMe = () => {
     <>
       <section
         id="about-me"
-        className="max-sm:grid flex md:justify-between md:mt-10 md:ml-20 md:gap-5 items-center"
+        className="max-lg:grid max-lg:place-items-center lg:flex lg:justify-between lg:mt-10 lg:ml-20 md:gap-5 items-center"
       >
         <div className="md:ml-10">
           <div className="max-sm:flex-center flex flex-col md:mt-5 ">
@@ -74,9 +74,9 @@ const AboutMe = () => {
           </nav>
         </div>
 
-        <figure className="max-h-[60vh] max-md:flex-center md:mb-35">
+        <figure className="max-h-[60vh] max-lg:flex-center md:mt-20 lg:mb-35">
           <img
-            className="max-sm:max-w-[62vw] max-w-[40vw] max-md:max-w-[90vw] md:max-h-[40vw]  md:mr-30 md:mb-20"
+            className="max-sm:max-w-[62vw] max-w-[40vw]  md:max-h-[40vw] lg:mr-30 lg:mb-20"
             src="/imges/sajstand.webp"
             alt="sajad"
           />

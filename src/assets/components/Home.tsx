@@ -31,7 +31,7 @@ const Home = () => {
           <img
             src="/imges/sajondesk.webp"
             alt="sajad"
-            className="max-h-[70vh] max-w-[80vw] "
+            className="max-h-[70vh] max-w-[70vw] "
           />
         </figure>
         <p className="sm:hidden max-sm:text-[min(3vw,12px)]  bg-[#4C5454] font-light text-xs text-white w-[100%] h-auto flex-center py-1.5">
