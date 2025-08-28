@@ -13,7 +13,7 @@ const Contact = () => {
           <em>Contact&nbsp;there!</em>
         </h1>
       </header>
-      <main className="lg:flex-col ">
+      <main className="lg:flex-col  ">
         <nav className=" max-md:flex-center  whitespace-nowrap  mx-10 mb-20 max-sm:mb-5  pt-10">
           <ul
             className="flex max-md:flex-col md:ml-10 
