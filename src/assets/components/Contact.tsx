@@ -1,4 +1,4 @@
-import { FaTelegramPlane } from "react-icons/fa";
+import { FaGithub, FaTelegramPlane } from "react-icons/fa";
 import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import { RiLinkedinFill } from "react-icons/ri";
 import { IoMdMail } from "react-icons/io";
@@ -63,6 +63,17 @@ const Contact = () => {
                   <IoMdMail size={25} color="white" />
                 </div>
                 &nbsp; sajadsoqrati@gmail.com
+              </a>
+            </li>
+            <li className="bg-gray-200 hover:border-2 hover:border-[#f94215] w-fit pl-2 h-fit pr-5 py-2  rounded-full">
+              <a
+                className="flex items-center max-md:text-sm max-sm:text-xs text-xl"
+                href="https://github.com/sajadsoqrati"
+              >
+                <div className="w-[40px] h-[40px] bg-[#f94215] rounded-full flex-center">
+                  <FaGithub size={25} color="white" />
+                </div>
+                &nbsp; SajadSoqrati
               </a>
             </li>
             <li className="bg-gray-200 hover:border-2 hover:border-[#f94215] w-fit pl-2 h-fit pr-5 py-2 max-sm:mt-10 rounded-full">

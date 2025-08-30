@@ -1,4 +1,4 @@
-import { BsTelephoneForwardFill } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { GoDash } from "react-icons/go";
 import Technologies from "./Technologies";
@@ -54,15 +54,11 @@ const AboutMe = () => {
 
           <nav className=" max-md:text-sm max-md:grid flex max-md:gap-4 max-md:my-10 gap-10 md:mt-10 md:ml-8 text-lg font-extralight">
             <a
-              href="tel:+989117667109"
+              href="https://github.com/sajadsoqrati"
               className=" bg-white rounded-[50px] max-md:mx-4 max-md:p-2 p-3"
             >
-              <BsTelephoneForwardFill
-                color="#f94215"
-                className="inline"
-                size={20}
-              />
-              &nbsp; 09117667109
+              <FaGithub color="#f94215" className="inline" size={25} />
+              &nbsp; SajadSoqrati
             </a>
             <a
               href="mailto:sajadsoqrati@gmail.com"
